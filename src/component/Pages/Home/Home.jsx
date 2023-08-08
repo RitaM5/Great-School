@@ -17,13 +17,13 @@ const Home = () => {
                             <div className="join">
                                 <div>
                                     <div className='relative'>
-                                        <input className=" h-14 w-[250px] md:w-[310px] lg:w-[250px] input input-bordered join-item" placeholder="School name, level, or type" />
-                                        <button className="btn lg:hidden rounded-lg bg-blue-500  absolute right-2 h-4 mt-1">Sea</button>
+                                        <input className=" h-14 w-[280px] md:w-[310px] lg:w-[250px] input input-bordered join-item" placeholder="School name, level, or type" />
+                                        <button className=" rounded-lg   absolute right-2  mt-2"><img src="https://img.icons8.com/nolan/40/google-web-search.png" alt="google-web-search" /></button>
                                     </div>
                                 </div>
                                 <div className="relative lg:block hidden">
                                     <input className="input h-14 w-[250px] input-bordered join-item" placeholder="Address, city or zip" />
-                                    <button className=" rounded-lg   absolute right-2  mt-2"><img src="https://img.icons8.com/nolan/40/google-web-search.png" alt="google-web-search" /></button>
+                                    <button className=" rounded-lg   absolute right-2 mr-2  mt-2"><img src="https://img.icons8.com/nolan/40/google-web-search.png" alt="google-web-search" /></button>
                                 </div>
 
                             </div>
@@ -45,62 +45,62 @@ const Home = () => {
 
                     </div>
                     <div className='w-full '>
-                        <img className='h-[400px] ' src={home_hero} alt="" srcset="" />
+                        <img className='h-[400px] mx-auto' src={home_hero} alt="" srcset="" />
                     </div>
                 </div>
             </div>
             {/* second section */}
             <section className=' font-poppins bg-slate-100'>
                 <div className='my-container py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-72 items-center px-2 lg:px-24'>
-                    <div className='space-y-2'>
+                    <div className='space-y-2 text-center lg:text-left'>
                         <h1 className=' text-3xl font-semibold'>Compare and choose.</h1>
                         <p className='text-lg'>Create a list of your top schools to quickly compare and find the best fit.</p>
                         <p className='pt-3 inline-flex gap-3 items-center text-blue-500 text-2xl font-semibold'> <a href="" className='hover:underline'>Start my list</a> <span><BsChevronRight /></span></p>
                     </div>
                     <div>
-                        <img src={compare_desktop} className='h-[480px]' alt="" srcset="" />
+                        <img src={compare_desktop} className='h-[480px] mx-auto' alt="" srcset="" />
                     </div>
                 </div>
             </section>
             {/* third section */}
             <section className='font-poppins bg-slate-100'>
                 <div className='my-container py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-72 items-center px-2 lg:px-24'>
-                    <div className='space-y-2'>
+                    <div className='space-y-2 text-center lg:text-left'>
                         <h1 className=' text-3xl font-semibold'>Share your experience.</h1>
                         <p className='text-lg'>Join over 200K people who help their school communities with reviews.</p>
                         <p className='pt-3 inline-flex gap-3 items-center text-blue-500 text-2xl font-semibold'> <a href="" className='hover:underline'>Review your school
                         </a> <span><BsChevronRight /></span></p>
                     </div>
                     <div>
-                        <img src={review} className='h-[480px]' alt="" srcset="" />
+                        <img src={review} className='h-[480px] mx-auto' alt="" srcset="" />
                     </div>
                 </div>
             </section>
             {/* fourth section */}
             <section className=' font-poppins bg-slate-100'>
                 <div className='my-container py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-72 items-center px-2 lg:px-24'>
-                    <div className='space-y-2'>
+                    <div className='space-y-2 text-center lg:text-left'>
                         <h1 className=' text-3xl font-semibold'>Get emails about your school.</h1>
                         <p className='text-lg'>Follow schools to receive email updates when new information is available.</p>
                         <p className='pt-3 inline-flex gap-3 items-center text-blue-500 text-2xl font-semibold'> <a href="" className='hover:underline'>Follow your school
                         </a> <span><BsChevronRight /></span></p>
                     </div>
                     <div>
-                        <img src={follow} className='h-[480px]' alt="" srcset="" />
+                        <img src={follow} className='h-[480px] mx-auto' alt="" srcset="" />
                     </div>
                 </div>
             </section>
             {/* fifth section */}
             <section className=' font-poppins'>
                 <div className='my-container py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-72 items-center px-2 lg:px-24'>
-                    <div className='space-y-2'>
+                    <div className='space-y-2 text-center lg:text-left'>
                         <h1 className=' text-3xl font-semibold'>Work at a school?</h1>
                         <p className='text-lg'>Claim your school to add and update information, link to your enrollment application, and reply to reviews.</p>
                         <p className='pt-3 inline-flex gap-3 items-center text-blue-500 text-2xl font-semibold'> <a href="" className='hover:underline'>Claim your school
                         </a> <span><BsChevronRight /></span></p>
                     </div>
                     <div>
-                        <img src={osp} className='h-[480px]' alt="" srcset="" />
+                        <img src={osp} className='h-[480px] mx-auto' alt="" srcset="" />
                     </div>
                 </div>
             </section>

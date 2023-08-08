@@ -14,23 +14,23 @@ const Footer = () => {
                     </div>
                     <div className='text-blue-500 mr-8'>
                         <h1 className='text-2xl text-white font-medium'>Join us</h1>
-                        <a className="link link-hover">Branding</a>
-                        <a className="link link-hover">Design</a>
-                        <a className="link link-hover">Marketing</a>
-                        <a className="link link-hover">Advertisement</a>
+                        <a className="link link-hover">Supporters</a>
+                        <a className="link link-hover">Licensing</a>
+                        <a className="link link-hover">Sponsorship</a>
+                        <a className="link link-hover">Advertising</a>
                     </div>
                     <div className='text-blue-500 mr-8'>
                         <h1 className='text-2xl text-white font-medium'>Learn more</h1>
+                        <a className="link link-hover">Newsletter</a>
+                        <a className="link link-hover">Privacy policy</a>
+                        <a className="link link-hover">Terms of use</a>
                         <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
-                        <a className="link link-hover">Jobs</a>
-                        <a className="link link-hover">Press kit</a>
                     </div>
                     <div className='text-blue-500 mr-8'>
                         <h1 className='text-2xl text-white font-medium'>Connect</h1>
-                        <a className="link link-hover">Terms of use</a>
-                        <a className="link link-hover">Privacy policy</a>
-                        <a className="link link-hover">Cookie policy</a>
+                        <a className="link link-hover">Facebook</a>
+                        <a className="link link-hover">Twitter</a>
+                        <a className="link link-hover">Instagram</a>
                     </div>
                 </div>
             </section>
